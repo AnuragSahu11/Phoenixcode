@@ -139,9 +139,6 @@ nav {
     height: 200px; }
   .menu {
     height: 2vh;
-    border-radius: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
