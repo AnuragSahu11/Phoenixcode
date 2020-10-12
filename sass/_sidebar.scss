@@ -4,6 +4,9 @@
     font-size: 2rem;
     font-weight: 300;
     height: 100%;
+    @media screen and (max-width: 550px){
+      padding: 0vh 0vh;
+    }
     
     &main{
         
@@ -13,6 +16,9 @@
         &:hover{
             background-color: #fbfbfb ;
             color: #1976D2;
+        }
+        @media screen and (max-width: 550px){
+          padding: 0vh 0vh;
         }
     }
     &:hover{
@@ -96,6 +102,7 @@
       height: 200px;
     }
     .menu {
+      height: 2vh;
       border-radius: 0px;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;

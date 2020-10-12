@@ -65,6 +65,9 @@ nav {
   font-size: 2rem;
   font-weight: 300;
   height: 100%; }
+  @media screen and (max-width: 550px) {
+    .link__ {
+      padding: 0vh 0vh; } }
   .link__main {
     font-size: 3.5rem;
     color: #fbfbfb;
@@ -72,6 +75,9 @@ nav {
     .link__main:hover {
       background-color: #fbfbfb;
       color: #1976D2; }
+    @media screen and (max-width: 550px) {
+      .link__main {
+        padding: 0vh 0vh; } }
   .link__:hover {
     background-color: #fbfbfb;
     color: #1976D2; }
@@ -132,6 +138,7 @@ nav {
   #checkbox1:checked + label .demo {
     height: 200px; }
   .menu {
+    height: 2vh;
     border-radius: 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
