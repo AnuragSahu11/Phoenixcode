@@ -50,6 +50,12 @@
             height: 33rem;
             background-size: contain;
             background-repeat: no-repeat;
+            //responsive
+            @media screen and (max-width: $bp-medium){
+                height:25rem;
+                width:100%;
+                background-position: center;
+            }
         }
     }
 

@@ -321,6 +321,7 @@ nav {
     width: 25rem; }
   @media screen and (max-width: 37.5em) {
     .features {
+      padding-top: 10vh;
       justify-content: center; } }
 
 .stories {
@@ -413,6 +414,11 @@ nav {
     height: 33rem;
     background-size: contain;
     background-repeat: no-repeat; }
+    @media screen and (max-width: 50em) {
+      .growth__img--img {
+        height: 25rem;
+        width: 100%;
+        background-position: center; } }
   @media screen and (max-width: 50em) {
     .growth {
       flex-direction: column; }
