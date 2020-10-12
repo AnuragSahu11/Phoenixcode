@@ -1,0 +1,77 @@
+.features{
+    padding-bottom: 10vh;
+    background-color: #fbfbfb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    &__h3{
+        padding: 1.5rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color:  #303669;
+    }
+    &__para{
+        font-size: 1.5rem;
+        font-weight: 300;
+        
+    }
+
+    &__img--1{
+        background-image: url("../img/strategy-1.png");
+        width:50%;
+        height:8rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 25%;
+    }
+    &__img--2{
+        background-image: url("../img/strategy-2.png");background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:50%;
+        height:8rem;
+        margin-left: 29%;
+    }
+    &__img--3{
+        background-image: url("../img/strategy-3.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:50%;
+        height:8rem;
+        margin-left: 25%;
+    }
+    &__img--4{
+        background-image: url("../img/strategy-4.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:50%;
+        height:8rem;
+        margin-left: 25%;
+    }
+    
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 2rem 0px;
+        height: max-content;
+        width: 25rem;
+
+    }
+
+    //
+    @media screen and (max-width: $bp-small){
+        
+            justify-content: center;
+        
+
+    }
+}
